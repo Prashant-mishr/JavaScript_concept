@@ -1,7 +1,8 @@
-#cv {
+#cv{
   max-width: 210mm;
   height: 270mm;
-  border: 1px solid rgb(248, 5, 5);
+  border: 2px solid rgb(141, 140, 140);
+  box-shadow: 2px 2px 10px 10px rgb(69, 68, 68);
   display: flex;
   flex-direction: row;
 }
@@ -30,6 +31,10 @@
   height: 6cm;
   border: 2px solid black;
   border-radius: 50%;
+  background-image: url('./111-crop.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 #perso {
   /* border: 1px solid black; */
@@ -97,7 +102,7 @@
 .k1 {
   /* border: 1px solid black; */
   width: 100%;
-  margin-top: 27%;
+  margin-top: 12%;
   align-items: end;
 }
 .k1 h3 {
@@ -140,5 +145,7 @@ font-size: x-large;
 }
 .roles{
   margin: 0%;
-
+  text-align: justify;
+  padding-right: 6%;
+  /* line-height: 100%; */
 }
